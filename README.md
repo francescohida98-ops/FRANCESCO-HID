@@ -1,17 +1,42 @@
 # FRANCESCO-HID
 # Python Assignment
+# -------------------------------
+# 1. Perimeter and Area of a Rectangle
+# -------------------------------
 
-This repository contains a Python script that solves three basic programming tasks.
+length = 8
+width = 4
 
-## Tasks Included
+perimeter = 2 * (length + width)
+area = length * width
 
-### 1. Rectangle Calculations
-- Calculates the **perimeter** and **area** of a rectangle using user input.
+print("Rectangle")
+print("Perimeter:", perimeter)
+print("Area:", area)
 
-### 2. Temperature Conversion
-- Converts **Celsius to Fahrenheit**
-- Converts **Fahrenheit to Celsius**
+# -------------------------------
+# 2. Temperature Conversion
+# -------------------------------
 
-### 3. Optional Challenge
-- Takes a **two-digit number**
-- Displays the **tens** and **ones** digits separatly
+# Celsius to Fahrenheit
+celsius = 25
+fahrenheit = (celsius * 9 / 5) + 32
+print("\nCelsius to Fahrenheit:", fahrenheit)
+
+# Fahrenheit to Celsius
+fahrenheit = 77
+celsius = (fahrenheit - 32) * 5 / 9
+print("Fahrenheit to Celsius:", celsius)
+
+# -------------------------------
+# 3. Optional Challenge: Tens and Ones
+# -------------------------------
+
+number = 47
+
+tens = number // 10
+ones = number % 10
+
+print("\nTwo-digit number:", number)
+print("Tens digit:", tens)
+print("Ones digit:", ones)
